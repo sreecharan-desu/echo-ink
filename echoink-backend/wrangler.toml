@@ -2,7 +2,7 @@ name = "echoink-backend"
 main = "src/index.ts"
 compatibility_date = "2025-01-12"
 
-# compatibility_flags = [ "nodejs_compat" ]
+compatibility_flags = [ "nodejs_compat" ]
 
 [vars]
 DATABASE_URL="prisma://accelerate.prisma-data.net/?api_key=***REMOVED***"
