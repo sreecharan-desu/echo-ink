@@ -1,12 +1,13 @@
-name = "backend"
+name = "echoink-backend"
 main = "src/index.ts"
-compatibility_date = "2025-01-11"
+compatibility_date = "2025-01-12"
 
 # compatibility_flags = [ "nodejs_compat" ]
 
-[vars]
+# [vars]
 DATABASE_URL="prisma://accelerate.prisma-data.net/?api_key=***REMOVED***"
 JWT_SECRET="sree"
+
 # [[kv_namespaces]]
 # binding = "MY_KV_NAMESPACE"
 # id = "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
