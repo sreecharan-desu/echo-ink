@@ -1237,3 +1237,7 @@ app.get('/protected', userAuth, (c) => {
 *   **Data Validation:**  Validate all user input to prevent data injection attacks.  The `userCredsValidation` function in `userMiddleware.ts` provides an example of how to validate user credentials.
 *   **Secure Storage of Secrets:**  Store sensitive information such as API keys and database passwords securely.  Do not expose these secrets in your codebase.
 *   **Regular Security Audits:**  Conduct regular security audits to identify and address potential vulnerabilities.
+
+
+## Consistency & Discipline
+This project is maintained regularly to ensure documentation clarity and code quality. Small, daily improvements are prioritized over large, infrequent updates.
