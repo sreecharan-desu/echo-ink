@@ -4,6 +4,9 @@ import { sign, verify } from "hono/jwt";
 import { JWTPayload } from "hono/utils/jwt/types";
 import { getPrismaClient } from "../prisma/prismaClient";
 
+/**
+ * hashPassword utility.
+ */
 export const hashPassword = async(password:string)=>{
     return await bcrypt.hash(password,4);
 }
