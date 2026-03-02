@@ -11,6 +11,9 @@ export const hashPassword = async(password:string)=>{
     return await bcrypt.hash(password,4);
 }
 
+/**
+ * gnerateToken utility.
+ */
 export const gnerateToken = async(payload:JWTPayload,secret:string)=>{
     const token = await sign(payload,secret)
     return token;
