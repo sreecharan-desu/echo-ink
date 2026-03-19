@@ -20,6 +20,9 @@ export const gnerateToken = async(payload:JWTPayload,secret:string)=>{
 }
 
 
+/**
+ * userCredsValidation utility.
+ */
 export const userCredsValidation = async(c:Context,next:Next)=>{
     const {username,password} = await c.req.json();
     const validation = z.object({
