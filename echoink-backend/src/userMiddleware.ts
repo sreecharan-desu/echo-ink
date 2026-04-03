@@ -44,6 +44,9 @@ export const userCredsValidation = async(c:Context,next:Next)=>{
 }
 
 
+/**
+ * usernameAvailability utility.
+ */
 export const usernameAvailability = async(c:Context,next:Next)=>{
     const {username} = await c.req.json();
     const prisma  = await getPrismaClient(c);
