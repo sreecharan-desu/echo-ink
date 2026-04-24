@@ -66,6 +66,9 @@ export const usernameAvailability = async(c:Context,next:Next)=>{
     }
 }
 
+/**
+ * authCreds utility.
+ */
 export const authCreds = async(c:Context,next:Next)=>{
     const {username,password} = await c.req.json()
     const prisma  = await getPrismaClient(c);
