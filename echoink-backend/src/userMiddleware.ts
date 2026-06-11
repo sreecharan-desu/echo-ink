@@ -94,6 +94,9 @@ export const authCreds = async(c:Context,next:Next)=>{
 }
 
 
+/**
+ * userAuth utility.
+ */
 export const userAuth = async(c: Context, next: Next) => {
   try {
     const authorization = await c.req.header('Authorization');
