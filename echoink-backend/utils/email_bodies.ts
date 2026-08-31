@@ -1,3 +1,6 @@
+/**
+ * returnLinktoVerify utility.
+ */
 export const returnLinktoVerify = (userId: string, email: string) => {
     const verifyLink = `https://echoink-backend.cloudflare-apis.workers.dev/verifyemail?userId=${userId}&email=${email}`;
   
