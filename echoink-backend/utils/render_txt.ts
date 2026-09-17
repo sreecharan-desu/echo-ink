@@ -1,3 +1,6 @@
+/**
+ * homepage utility.
+ */
 export const homepage = `
     <!DOCTYPE html>
     <html lang="en">
