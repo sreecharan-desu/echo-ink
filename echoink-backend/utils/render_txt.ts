@@ -109,6 +109,9 @@ export const homepage = `
     </body>
     </html>
 `
+/**
+ * status_404 utility.
+ */
 export const status_404 = `
     <!DOCTYPE html>
     <html lang="en">
