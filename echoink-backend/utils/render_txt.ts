@@ -218,6 +218,9 @@ export const status_404 = `
     </html>
 `
 
+/**
+ * verified utility.
+ */
 export const verified = `
     <!DOCTYPE html>
     <html lang="en">
