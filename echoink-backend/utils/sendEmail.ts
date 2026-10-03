@@ -1,5 +1,8 @@
 import sgMail from '@sendgrid/mail';
 
+/**
+ * sendEmail utility.
+ */
 export const sendEmail = async (email:string, subject:string, content:string) => {
   try {
     // Set your SendGrid API key (replace this with your SendGrid API key)
