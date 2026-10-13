@@ -41,6 +41,9 @@ export const userAtom = atom<User | null>({
   default: null,
 });
 
+/**
+ * postsState utility.
+ */
 export const postsState = atom<Post[]>({
   key: "postsState",
   default: [],
