@@ -49,6 +49,9 @@ export const postsState = atom<Post[]>({
   default: [],
 });
 
+/**
+ * InsighthspostsState utility.
+ */
 export const InsighthspostsState = atom<Post[]>({
   key: "InsighthspostsState",
   default: [],
