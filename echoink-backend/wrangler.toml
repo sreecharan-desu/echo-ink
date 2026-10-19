@@ -4,9 +4,10 @@ compatibility_date = "2025-01-12"
 
 compatibility_flags = [ "nodejs_compat" ]
 
-[vars]
-DATABASE_URL="prisma://accelerate.prisma-data.net/?api_key=***REMOVED***"
-JWT_SECRET="sree"
+# Secrets are NOT stored here. Set them with:
+#   npx wrangler secret put DATABASE_URL
+#   npx wrangler secret put JWT_SECRET
+# For local dev, put them in .dev.vars (gitignored); see .dev.vars.example.
 
 # [[kv_namespaces]]
 # binding = "MY_KV_NAMESPACE"
