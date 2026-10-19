@@ -1,0 +1,3 @@
+# Copy to .dev.vars for `wrangler dev`. Placeholders only. Never commit real values.
+DATABASE_URL="prisma://accelerate.prisma-data.net/?api_key=<your-accelerate-api-key>"
+JWT_SECRET="<long-random-string>"
