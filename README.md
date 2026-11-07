@@ -28,3 +28,7 @@ deploy the backend with `npm run deploy` (wrangler).
 ## env
 
 the backend reads `DATABASE_URL` and `JWT_SECRET` from wrangler. copy `echoink-backend/.dev.vars.example` to `.dev.vars` for local dev, and use `npx wrangler secret put` for production.
+
+
+## Consistency & Discipline
+This project is maintained regularly to ensure documentation clarity and code quality. Small, daily improvements are prioritized over large, infrequent updates.
